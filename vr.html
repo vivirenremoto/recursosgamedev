@@ -12,6 +12,16 @@
 </head>
 <body>
 
+<style>
+@media screen and (min-width: 480px) {
+  .row_photo{display:none;}
+}
+
+@media screen and (max-width: 480px) {
+  .col_photo{display:none;}
+}
+</style>
+
 <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
 <div class="container-fluid">
 <a class="navbar-brand" href="/">🎮 Recursos Gamedev</a>
@@ -47,9 +57,15 @@
             <th colspan="5" style="background:#fff3cd">Oculus Quest 2</th>
             </tr>
  
+                  
+            <tr class="row_photo">
+              <td colspan="5" align="center">
+                <img src="https://m.media-amazon.com/images/I/51yB98vFpSL._AC_UL320_.jpg" style="margin:20px 20px 0 0;">
+              </td>
+            </tr>
  
         <tr>
-          <th scope="col" style="background:#f8f9fa">Foto</th>
+          <th class="col_photo" scope="col" style="background:#f8f9fa">Foto</th>
           <th scope="col" style="background:#f8f9fa">Requisitos</th>
           <th scope="col" style="background:#f8f9fa">Resolución</th>
           <th scope="col" style="background:#f8f9fa">Memoria</th>
@@ -58,9 +74,11 @@
         </thead>
             <tbody>
 
+          
+  
   
               <tr>
-                  <td rowspan="3" width="1"><img src="https://m.media-amazon.com/images/I/51yB98vFpSL._AC_UL320_.jpg" style="margin:20px 20px 0 0;"></td>
+                  <td rowspan="3" width="1" class="col_photo"><img src="https://m.media-amazon.com/images/I/51yB98vFpSL._AC_UL320_.jpg" style="margin:20px 20px 0 0;"></td>
                   <td rowspan="3">
                     CPU: Intel i5-4590 / AMD Ryzen 5 1500X.<br>
                     GPU: NVIDIA GeForce GTX 970 / AMD Radeon 400 Series.<br>
@@ -116,10 +134,15 @@
                           </tr>
          
                           
+                          <tr class="row_photo">
+                            <td colspan="5" align="center">
+                              <img src="https://m.media-amazon.com/images/I/61QiWPgRS0S._AC_UL320_.jpg" style="margin:20px 20px 0 0;">
+                            </td>
+                          </tr>
 
 
                         <tr>
-                          <th scope="col" style="background:#f8f9fa">Foto</th>
+                          <th scope="col" class="col_photo" style="background:#f8f9fa">Foto</th>
                           <th scope="col" style="background:#f8f9fa">Requisitos</th>
                           <th scope="col" style="background:#f8f9fa">Resolución</th>
                           <th scope="col" style="background:#f8f9fa">Memoria</th>
@@ -130,7 +153,7 @@
                 
                   
                               <tr>
-                                  <td rowspan="1" width="1"><img src="https://m.media-amazon.com/images/I/61QiWPgRS0S._AC_UL320_.jpg" style="margin:20px 20px 0 0;"></td>
+                                  <td rowspan="1" width="1" class="col_photo"><img src="https://m.media-amazon.com/images/I/61QiWPgRS0S._AC_UL320_.jpg" style="margin:20px 20px 0 0;"></td>
                 
                                   <td>
                                     CPU: Dual Core with Hyper-Threading.<br>
@@ -159,10 +182,15 @@
                   <th colspan="5" style="background:#fff3cd">HP Reverb G2 VR3000 </th>
                   </tr>
  
-
+                  <tr class="row_photo">
+                    <td colspan="5" align="center">
+                      <img src="https://m.media-amazon.com/images/I/81JY6BiF8HL._AC_UL320_.jpg" style="margin:20px 20px 0 0;">
+                    </td>
+                  </tr>
+      
                   
                 <tr>
-                  <th scope="col" style="background:#f8f9fa">Foto</th>
+                  <th scope="col" style="background:#f8f9fa" class="col_photo">Foto</th>
                   <th scope="col" style="background:#f8f9fa">Requisitos</th>
                   <th scope="col" style="background:#f8f9fa">Resolución</th>
                   <th scope="col" style="background:#f8f9fa">Memoria</th>
@@ -171,9 +199,9 @@
                 </thead>
                     <tbody>
         
-          
+   
                       <tr>
-                          <td rowspan="1" width="1"><img src="https://m.media-amazon.com/images/I/81JY6BiF8HL._AC_UL320_.jpg" style="margin:20px 20px 0 0;"></td>
+                          <td rowspan="1" width="1" class="col_photo"><img src="https://m.media-amazon.com/images/I/81JY6BiF8HL._AC_UL320_.jpg" style="margin:20px 20px 0 0;"></td>
                           <td>
                             CPU: Intel Core i5, i7, Intel Xeon E3-1240 v5, AMD Ryzen 5.<br>
                             GPU: NVIDIA GeForce GTX 1080, AMD Radeon RX 5700.<br>
