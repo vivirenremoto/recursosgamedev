@@ -1,8 +1,8 @@
 BODY{padding-top:80px;}
 H1{margin-bottom:40px;}
 .container A{padding:2px;display:inline-block;text-decoration:none;color:black;border-bottom:1px #ccc solid;}
-.container A:HOVER{background:#fafafa;}
-FOOTER{padding:1rem;margin-top:40px;}
+.container A:HOVER{background:#0a0303;}
+FOOTER{padding:1rem;padding-bottom:0;margin-top:40px;}
 
 
 
