@@ -16,7 +16,15 @@ function changeLang(lang){
             var value = $(this).data('lang-default');
             $(this).html( value );
         });
-    } 
+    }
+
+
+    var page_title = '🎮 ';
+    if( $('h1').length ){
+        page_title += $('h1').html() + ' - ';
+    }
+    page_title += $('.navbar-brand .lang').html();
+    document.title = page_title;
 }
 
 $(function(){
@@ -30,17 +38,18 @@ $(function(){
         $(this).data('lang-default', $(this).html() );
     });
 
-    if( document.location.href.indexOf('#') > -1 ){
-        default_lang = window.location.hash.replace('#','');
-        setCookie('default_lang', default_lang, exdays);
-        changeLang(default_lang);
-    }
-
     var cookie_lang = getCookie('default_lang');
     if( cookie_lang ){
         default_lang = cookie_lang;
     }
 
-    changeLang(default_lang);
-})
+    if( document.location.href.indexOf('#') > -1 ){
+        default_lang = window.location.hash.replace('#','');
+        setCookie('default_lang', default_lang, exdays);
+        changeLang(default_lang);
+    }else{
+        changeLang(default_lang);
+    }
+
+});
 
