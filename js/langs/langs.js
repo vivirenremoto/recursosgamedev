@@ -70,7 +70,7 @@ i18n.ca =
 'Dictionary': 'Diccionari',
 'Game engines': 'Motors',
 '3D Models': 'Models 3D',
-'Textures and materials': 'Textures y materials',
+'Textures and materials': 'Textures i materials',
 'Music': 'Música',
 'Sounds': 'Sons',
 'Voice over': 'Locucions',
