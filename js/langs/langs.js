@@ -103,7 +103,7 @@ i18n.ca =
 'Discord Channels': 'Canales Discord',
 'Telegram groups': 'Grups Telegram',
 'Looking for inspiration?': 'Busques inspiració?',
-'Books': 'Libres',
+'Books': 'Llibres',
 'Podcasts': 'Podcasts',
 'Documentaries': 'Documentals',
 'Created by': 'Creat per',
