@@ -102,7 +102,7 @@ i18n.es =
 'June': 'Junio',
 'July': 'Julio',
 'August': 'Agosto',
-'September': 'Septiember',
+'September': 'Septiembre',
 'October': 'Octubre',
 'November': 'Noviembre',
 'December': 'Diciembre',
