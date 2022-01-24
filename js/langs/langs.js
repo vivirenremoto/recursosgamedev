@@ -93,7 +93,7 @@ i18n.ca =
 'Sounds': 'Sons',
 'Voice over': 'Locucions',
 'Level design': 'Disseny de nivells',
-'Interface': 'interfícies',
+'Interface': 'Interfícies',
 'Virtual Reality': 'Realitat Virtual',
 'Artificial inteligence': 'Intel·ligència Artificial',
 'VFX y Shaders': 'VFX i Shaders',
