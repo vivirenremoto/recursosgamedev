@@ -11,10 +11,20 @@ function changeLang(lang){
             var value = i18n[default_lang][ $(this).data('lang-default') ];
             $(this).html( value );
         });
+        
+        $('.lang_url').each(function(){
+            var value = $(this).data('lang-default').split('_')[0] + '_' + default_lang + '.html';
+            $(this).attr('href', value);
+        });
     }else{
         $('.lang').each(function(){
             var value = $(this).data('lang-default');
             $(this).html( value );
+        });
+        
+        $('.lang_url').each(function(){
+            var value = $(this).data('lang-default');
+            $(this).attr('href', value);
         });
     }
 
@@ -31,11 +41,23 @@ $(function(){
     $('.dropdown-item').click(function(){
         default_lang = $(this).attr('href').replace('#','');
         setCookie('default_lang', default_lang, exdays);
-        changeLang(default_lang);
+
+        if( document.location.href.indexOf('_') > -1 ){
+            var url_aux = document.location.href.split('/')[0];
+            url_aux = document.location.href.split('#')[0];
+            url_aux = url_aux.split('_')[0] + '_' + default_lang + '.html';
+            document.location = url_aux;
+        }else{
+            changeLang(default_lang);
+        }
     });
 
     $('.lang').each(function(){
         $(this).data('lang-default', $(this).html() );
+    });
+
+    $('.lang_url').each(function(){
+        $(this).data('lang-default', $(this).attr('href') );
     });
 
     var cookie_lang = getCookie('default_lang');
