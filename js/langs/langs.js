@@ -207,7 +207,7 @@ i18n.ca =
 'Other licenses': 'Altres llicències',
 'January': 'Gener',
 'February': 'Febrer',
-'MARCH': 'Març',
+'March': 'Març',
 'Apil': 'Abril',
 'May': 'Maig',
 'June': 'Juny',
