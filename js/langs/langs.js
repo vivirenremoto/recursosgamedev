@@ -72,6 +72,7 @@ i18n.es =
 'Fairs and conferences': 'Ferias y conferencias',
 'Tools': 'Herramientas',
 'Directory': 'Directorio',
+'Amount': 'Importe',
 };
 
 
@@ -147,4 +148,5 @@ i18n.ca =
 'Fairs and conferences': 'Fires i conferències',
 'Tools': 'Eines',
 'Directory': 'Directori',
+'Amount': 'Import',
 };
