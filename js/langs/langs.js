@@ -109,6 +109,7 @@ i18n.es =
 'Country': 'País',
 'Monthly': 'Mensual',
 'months': 'meses',
+'Interviews': 'Entrevistas',
 };
 
 
@@ -221,4 +222,5 @@ i18n.ca =
 'Country': 'País',
 'Monthly': 'Mensual',
 'months': 'mesos',
+'Interviews': 'Entrevistes',
 };
