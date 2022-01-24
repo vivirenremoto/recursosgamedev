@@ -107,6 +107,7 @@ i18n.es =
 'November': 'Noviembre',
 'December': 'Diciembre',
 'Country': 'País',
+'Monthly': 'Mensual',
 };
 
 
@@ -217,4 +218,5 @@ i18n.ca =
 'November': 'Novembre',
 'December': 'Desembre',
 'Country': 'País',
+'Monthly': 'Mensual',
 };
