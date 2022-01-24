@@ -142,6 +142,8 @@ i18n.ca =
 'Duration': 'Duració',
 'Location': 'Lloc',
 'Month': 'Mes',
+'Meetings': 'Reunions',
+'Frequency': 'Freqüència',
 'Fairs and conferences': 'Fires i conferències',
 'Tools': 'Eines',
 'Directory': 'Directori',
