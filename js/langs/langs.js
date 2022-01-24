@@ -108,6 +108,7 @@ i18n.es =
 'December': 'Diciembre',
 'Country': 'País',
 'Monthly': 'Mensual',
+'months': 'meses',
 };
 
 
@@ -219,4 +220,5 @@ i18n.ca =
 'December': 'Desembre',
 'Country': 'País',
 'Monthly': 'Mensual',
+'months': 'mesos',
 };
