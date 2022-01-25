@@ -111,6 +111,7 @@ i18n.es =
 'Monthly': 'Mensual',
 'months': 'meses',
 'Interviews': 'Entrevistas',
+'Monetization': 'Monetización',
 };
 
 
@@ -224,4 +225,5 @@ i18n.ca =
 'Monthly': 'Mensual',
 'months': 'mesos',
 'Interviews': 'Entrevistes',
+'Monetization': 'Monetització',
 };
