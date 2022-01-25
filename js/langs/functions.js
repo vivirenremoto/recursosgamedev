@@ -38,6 +38,14 @@ function changeLang(lang){
 }
 
 $(function(){
+
+    var html_lang = '';
+    for(var i=0; i<available_langs.length; i++){
+        html_lang += '<li><a class="dropdown-item" href="#' + available_langs[i] + '">' + available_langs[i].toUpperCase() + '</a></li>';
+    }
+    $('.dropdown-menu').html(html_lang);
+
+
     $('.dropdown-item').click(function(){
         default_lang = $(this).attr('href').replace('#','');
         setCookie('default_lang', default_lang, exdays);

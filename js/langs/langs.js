@@ -1,3 +1,4 @@
+var available_langs = ['en', 'es', 'ca'];
 var i18n = {};
 
 // ESPAÑOL
