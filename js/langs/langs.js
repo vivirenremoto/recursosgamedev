@@ -112,6 +112,7 @@ i18n.es =
 'months': 'meses',
 'Interviews': 'Entrevistas',
 'Monetization': 'Monetización',
+'Porting a game': 'Portar un juego',
 };
 
 
@@ -226,4 +227,5 @@ i18n.ca =
 'months': 'mesos',
 'Interviews': 'Entrevistes',
 'Monetization': 'Monetització',
+'Porting a game': 'Portar un joc',
 };
