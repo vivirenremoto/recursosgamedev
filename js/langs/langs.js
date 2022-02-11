@@ -113,6 +113,7 @@ i18n.es =
 'Interviews': 'Entrevistas',
 'Monetization': 'Monetización',
 'Multiplayer': 'Multijugador',
+'Narrative': 'Narrativa',
 };
 
 
@@ -228,4 +229,5 @@ i18n.ca =
 'Interviews': 'Entrevistes',
 'Monetization': 'Monetització',
 'Multiplayer': 'Multijugador',
+'Narrative': 'Narrativa',
 };
