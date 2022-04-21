@@ -114,6 +114,7 @@ i18n.es =
 'Monetization': 'Monetización',
 'Multiplayer': 'Multijugador',
 'Narrative': 'Narrativa',
+'Fonts': 'Fuentes',
 };
 
 
@@ -230,6 +231,7 @@ i18n.ca =
 'Monetization': 'Monetització',
 'Multiplayer': 'Multijugador',
 'Narrative': 'Narrativa',
+'Fonts': 'Tipus de lletra ',
 };
 
 
@@ -346,4 +348,7 @@ i18n.it =
 'Monetization': 'Monetizzazione',
 'Multiplayer': 'Multigiocatore',
 'Narrative': 'Narrativa',
+'Fonts': 'Tipo di carattere',
 };
+
+
