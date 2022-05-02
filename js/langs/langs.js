@@ -115,6 +115,7 @@ i18n.es =
 'Multiplayer': 'Multijugador',
 'Narrative': 'Narrativa',
 'Fonts': 'Fuentes',
+'National': 'Nacional',
 };
 
 
@@ -231,7 +232,8 @@ i18n.ca =
 'Monetization': 'Monetització',
 'Multiplayer': 'Multijugador',
 'Narrative': 'Narrativa',
-'Fonts': 'Tipus de lletra ',
+'Fonts': 'Tipus de lletra',
+'National': 'Nacional',
 };
 
 
@@ -349,6 +351,7 @@ i18n.it =
 'Multiplayer': 'Multigiocatore',
 'Narrative': 'Narrativa',
 'Fonts': 'Tipo di carattere',
+'National': 'Nazionale',
 };
 
 // PORTUGUÊS - BRASIL
@@ -465,6 +468,7 @@ i18n.br =
 'Multiplayer': 'Multijogador',
 'Narrative': 'Narrativa',
 'Fonts': 'Fontes',
+'National': 'Nacional',
 };
 
 
