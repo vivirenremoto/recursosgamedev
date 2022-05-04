@@ -116,6 +116,7 @@ i18n.es =
 'Narrative': 'Narrativa',
 'Fonts': 'Fuentes',
 'National': 'Nacional',
+'Press kit examples': 'Ejemplos de Kit de prensa',
 };
 
 
@@ -234,6 +235,7 @@ i18n.ca =
 'Narrative': 'Narrativa',
 'Fonts': 'Tipus de lletra',
 'National': 'Nacional',
+'Press kit examples': 'Exemples de Kit de premsa',
 };
 
 
@@ -352,6 +354,7 @@ i18n.it =
 'Narrative': 'Narrativa',
 'Fonts': 'Tipo di carattere',
 'National': 'Nazionale',
+'Press kit examples': 'Esempi di cartelle stampa',
 };
 
 // PORTUGUÊS - BRASIL
@@ -469,6 +472,7 @@ i18n.br =
 'Narrative': 'Narrativa',
 'Fonts': 'Fontes',
 'National': 'Nacional',
+'Press kit examples': 'Exemplos de kits de imprensa',
 };
 
 
