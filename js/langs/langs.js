@@ -31,7 +31,7 @@ i18n.es =
 'Indie games streamers': 'Streamers de juegos indie',
 'Events': 'Eventos',
 'Prizes': 'Premios',
-'Looking for help?': '¿Buscas ayudas?',
+'Looking for help?': '¿Buscas ayuda?',
 'Financing': 'Financiación',
 'Associations': 'Asociaciones',
 'Incubators': 'Incubadoras',
@@ -119,6 +119,7 @@ i18n.es =
 'Press kit examples': 'Ejemplos de Kit de prensa',
 'Title': 'Título',
 'Author': 'Autor',
+'Translators': 'Traductores',
 };
 
 
@@ -153,7 +154,7 @@ i18n.ca =
 'Indie games streamers': 'Streamers de jocs indie',
 'Events': 'Esdeveniments',
 'Prizes': 'Premis',
-'Looking for help?': 'Busques ajudes?',
+'Looking for help?': 'Necesites ajuda?',
 'Financing': 'Finançament',
 'Associations': 'Associacions',
 'Incubators': 'Incubadores',
@@ -240,6 +241,7 @@ i18n.ca =
 'Press kit examples': 'Exemples de Kit de premsa',
 'Title': 'Títol',
 'Author': 'Autor',
+'Translators': 'Traductors',
 };
 
 
@@ -361,6 +363,7 @@ i18n.it =
 'Press kit examples': 'Esempi di cartelle stampa',
 'Title': 'Titolo',
 'Author': 'Autore',
+'Translators': 'Traduttori',
 };
 
 // PORTUGUÊS - BRASIL
@@ -481,6 +484,7 @@ i18n.br =
 'Press kit examples': 'Exemplos de kits de imprensa',
 'Title': 'Título',
 'Author': 'Autor',
+'Translators': 'Tradutores',
 };
 
 
