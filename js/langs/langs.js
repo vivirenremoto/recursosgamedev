@@ -31,7 +31,7 @@ i18n.es =
 'Indie games streamers': 'Streamers de juegos indie',
 'Events': 'Eventos',
 'Prizes': 'Premios',
-'Looking for help?': '¿Buscas ayuda?',
+'Looking for help?': '¿Necesitas ayuda?',
 'Financing': 'Financiación',
 'Associations': 'Asociaciones',
 'Incubators': 'Incubadoras',
