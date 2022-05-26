@@ -277,7 +277,7 @@ i18n.it =
 'Prizes': 'Premi',
 'Looking for help?': 'Cerchi aiuto?',
 'Financing': 'Finanziamento',
-'Associations': 'Associaziones',
+'Associations': 'Associazioni',
 'Incubators': 'Incubatori',
 'Publishers': 'Editori',
 'Student discounts': 'Sconti studenti',
