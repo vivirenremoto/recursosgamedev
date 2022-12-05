@@ -14,6 +14,15 @@
     @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
     </style> 
 
+
+    <meta property="og:image" content="https://startgame.dev/images/ebook/social.png">
+    <meta property="og:image:secure_url" content="https://startgame.dev/images/ebook/social.png">
+    <meta property="og:image:alt" content="Libro Press Start - Conoce las personas tras los videojuegos">
+    <meta property="og:image:type" content="image/png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Libro Press Start - Conoce las personas tras los videojuegos">
+    <meta name="twitter:image" content="https://startgame.dev/images/ebook/social.png">
+
 </head>
 <body>
 
@@ -73,7 +82,7 @@ h2{margin:0;}
 <div class="featured">
 <div class="row">
     <div class="col-12 col-md-4 text-center">
-        <img src="images/book.png"> 
+        <img src="images/ebook/book.png"> 
     </div>
     <div class="col-12 col-md-7"> 
         <br>
@@ -206,7 +215,7 @@ h2{margin:0;}
     <div class="col-6 col-md-3 pro_art-director"><a href="https://twitter.com/CaroWaro" target="_blank">Caro Waro</a></div>
     <div class="col-6 col-md-3 pro_character-artist"><a href="https://twitter.com/CaterinaSumalla" target="_blank">Caterina Sumalla</a></div>
     <div class="col-6 col-md-3 pro_2d-artist"><a href="https://twitter.com/ClaraBMtnez" target="_blank">Clara B Martínez</a></div>
-    <div class="col-6 col-md-3 pro_programmer"><a href="https://twitter.com/cristinagil_dev" target="_blank">Cristina Gil</a></div>
+    <div class="col-6 col-md-3 pro_programmer"><a href="https://www.linkedin.com/in/cristina-gil-dev/" target="_blank">Cristina Gil</a></div>
     <div class="col-6 col-md-3 pro_programmer"><a href="https://twitter.com/CristinaCode" target="_blank">Cristina Ruiz Palma</a></div>
     <div class="col-6 col-md-3 pro_programmer"><a href="https://twitter.com/DaniPOCode" target="_blank">Daniel Parrado</a></div>
     <div class="col-6 col-md-3 pro_game-designer"><a href="https://twitter.com/davidferriz" target="_blank">David Ferriz</a></div>
@@ -369,12 +378,21 @@ $(function(){
     });
 
     $('.btn_share').click(function(){
-        if (navigator.canShare && navigator.canShare({ files: files })) {
+        try {
+            let result = await navigator.share(drakeProfileData);
+        } catch(err) {
+            
+        }
+
+
+        if (navigator.canShare ) {
+
             navigator.share({
             title: document.title,
+            text: "Más de 100 personas del sector de los videojuegos comparten cuando empezó su interés, lo que han estudiado, cuales fueron sus inicios y qué consejo le darían a alguien que quiera empezar en el mundillo.",
             url: document.location.href
-            })
-            .catch(console.error);
+            });
+
             return false;
         }
 
