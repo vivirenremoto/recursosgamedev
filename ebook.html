@@ -378,13 +378,6 @@ $(function(){
     });
 
     $('.btn_share').click(function(){
-        try {
-            let result = await navigator.share(drakeProfileData);
-        } catch(err) {
-            
-        }
-
-
         if (navigator.canShare ) {
 
             navigator.share({
