@@ -378,18 +378,20 @@ $(function(){
     });
 
     $('.btn_share').click(function(){
-        if (navigator.canShare ) {
-
-            navigator.share({
-            title: document.title,
+        var share_data = {
+            title: "✨ Descarga el Libro Press Start de forma gratuita y apoya a @juegaterapia",
             text: "Más de 100 personas del sector de los videojuegos comparten cuando empezó su interés, lo que han estudiado, cuales fueron sus inicios y qué consejo le darían a alguien que quiera empezar en el mundillo.",
             url: document.location.href
-            });
+            };
+
+        if (navigator.canShare ) {
+
+            navigator.share(share_data);
 
             return false;
         }
 
-        var share_url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + '&tw_p=tweetbutton&url=' + document.location.href;
+        var share_url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(share_data.title) + '&tw_p=tweetbutton&url=' + document.location.href;
         window.open(share_url);
     });
 });
