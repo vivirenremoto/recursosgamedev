@@ -413,7 +413,7 @@ $(function(){
             return false;
         }
 
-        var share_url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(share_data.title) + '&tw_p=tweetbutton&url=' + share_data.url;
+        var share_url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(share_data.text) + '&tw_p=tweetbutton&url=' + share_data.url;
         window.open(share_url);
     });
 });
