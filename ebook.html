@@ -14,7 +14,8 @@
     @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
     </style> 
 
-
+    <meta property="og:title" content="Libro Press Start - Conoce las personas tras los videojuegos" />
+    <meta property="og:description" content="Más de 100 personas del sector de los videojuegos comparten cuando empezó su interés, lo que han estudiado, cuales fueron sus inicios y qué consejo le darían a alguien que quiera empezar en el mundillo." />
     <meta property="og:image" content="https://startgame.dev/images/ebook/social.png">
     <meta property="og:image:secure_url" content="https://startgame.dev/images/ebook/social.png">
     <meta property="og:image:alt" content="Libro Press Start - Conoce las personas tras los videojuegos">
@@ -75,6 +76,12 @@ h2{margin:0;}
 .scrollx{overflow-x:scroll;}
 #filter{width:3100px;padding-bottom:15px;}
 #filter .btn{color:black !important;} 
+
+@media screen and (max-width: 480px) {
+    .featured img {max-width: 80%;margin-bottom: -40px;}
+    h1,h2{text-align:center;}
+
+}
 </style>
 
 <div class="container">
@@ -90,9 +97,8 @@ h2{margin:0;}
         <h1>PRESS START</h1>
         <h2>Conoce las personas tras los videojuegos</h2>
         <br>
-        <p>
-            ¡Hola! Soy <a href="https://twitter.com/comandogdev" target="_blank">Miquel</a>, he preguntado a más de 100 personas del sector para saber cuando empezó su interés, lo que han estudiado, cuales fueron sus inicios y qué consejo le darían a alguien que quiera empezar en el mundillo.
-        </p>
+        ¡Hola! Soy <a href="https://twitter.com/comandogdev" target="_blank">Miquel</a>, he preguntado a más de 100 personas del sector para saber cuando empezó su interés, lo que han estudiado, cuales fueron sus inicios y qué consejo le darían a alguien que quiera empezar en el mundillo.
+
         <div class="row">
             <div class="col-12 col-md-6">
                 <br>
@@ -158,7 +164,6 @@ h2{margin:0;}
 <button data-profile="art-director" type="button" class="btn btn-outline-warning">Art director</button>
 <button data-profile="2d-artist" type="button" class="btn btn-outline-warning">2D Artist</button>
 <button data-profile="3d-artist" type="button" class="btn btn-outline-warning">3D Artist</button>
-<button data-profile="3d-environment-artist" type="button" class="btn btn-outline-warning">3D Environment artist</button>
 <button data-profile="3d-animator" type="button" class="btn btn-outline-warning">3D Animator</button>
 <button data-profile="character-artist" type="button" class="btn btn-outline-warning">Character artist</button>
 <button data-profile="concept-artist" type="button" class="btn btn-outline-warning">Concept artist</button>
@@ -276,7 +281,7 @@ h2{margin:0;}
     <div class="col-6 col-md-3 pro_programmer"><a href="https://twitter.com/luiscanary" target="_blank">Luis Canary</a></div>
     <div class="col-6 col-md-3 pro_game-designer"><a href="https://twitter.com/Ludipe" target="_blank">Luis Díaz</a></div>
     <div class="col-6 col-md-3 pro_tools-programmer"><a href="https://twitter.com/CodeManuPro" target="_blank">Manuel Bolaños</a></div>
-    <div class="col-6 col-md-3 pro_game-designer"><a href="https://twitter.com/NanaGameDev" target="_blank">Mariana Orihuela</a></div>
+    <div class="col-6 col-md-3 pro_technical-designer"><a href="https://twitter.com/NanaGameDev" target="_blank">Mariana Orihuela</a></div>
     <div class="col-6 col-md-3 pro_programmer"><a href="https://twitter.com/LadyMarinaDev" target="_blank">Marina Chavarria</a></div>
     <div class="col-6 col-md-3 pro_music-composer"><a href="https://twitter.com/Compotacustico" target="_blank">Marina Picaporte</a></div>
     <div class="col-6 col-md-3 pro_art-director"><a href="https://twitter.com/marionshkav" target="_blank">Mariona Valls</a></div>
@@ -310,7 +315,7 @@ h2{margin:0;}
     <div class="col-6 col-md-3 pro_producer"><a href="https://twitter.com/VicDeveloper" target="_blank">Víctor Ávila</a></div>
     <div class="col-6 col-md-3 pro_producer"><a href="https://twitter.com/Xabier_Adrados" target="_blank">Xabier Adrados</a></div>
     <div class="col-6 col-md-3 pro_game-designer"><a href="https://twitter.com/YerayBunnyMoon" target="_blank">Yeray Toledano</a></div>
-    <div class="col-6 col-md-3 pro_3d-environment-artist"><a href="https://twitter.com/NaruKennedy" target="_blank">Yolanda Cruz</a></div>
+    <div class="col-6 col-md-3 pro_3d-artist"><a href="https://twitter.com/NaruKennedy" target="_blank">Yolanda Cruz</a></div>
 
 
     
@@ -393,7 +398,7 @@ $(function(){
 
     $('.btn_share').click(function(){
         var share_data = {
-            title: 'Descarga gratis el libro ✨Press Start - Conoce las personas tras los videojuegos✨ y apoya a @juegaterapia',
+            title: 'Descarga gratis el libro ✨Press Start - Conoce las personas tras los videojuegos✨ y apoya con una donación a @juegaterapia',
             text: "Más de 100 personas del sector de los videojuegos comparten cuando empezó su interés, lo que han estudiado, cuales fueron sus inicios y qué consejo le darían a alguien que quiera empezar en el mundillo.",
             url: document.location.href
             };
