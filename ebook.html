@@ -401,9 +401,9 @@ $(function(){
 
     $('.btn_share').click(function(){
         var share_data = {
-            title: 'Descarga gratis el libro ✨Press Start - Conoce las personas tras los videojuegos✨ y apoya con una donación a @juegaterapia',
-            text: "Más de 100 personas del sector de los videojuegos comparten cuando empezó su interés, lo que han estudiado, cuales fueron sus inicios y qué consejo le darían a alguien que quiera empezar en el mundillo.",
-            url: document.location.href
+            title: "Press Start - Conoce las personas tras los videojuegos",
+            text: "Descarga gratis el libro ✨Press Start - Conoce las personas tras los videojuegos✨ y apoya con una donación a @juegaterapia",
+            url: "https://startgame.dev/ebook.html"
             };
 
         if (navigator.canShare ) {
@@ -413,7 +413,7 @@ $(function(){
             return false;
         }
 
-        var share_url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(share_data.title) + '&tw_p=tweetbutton&url=' + document.location.href;
+        var share_url = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(share_data.title) + '&tw_p=tweetbutton&url=' + share_data.url;
         window.open(share_url);
     });
 });
