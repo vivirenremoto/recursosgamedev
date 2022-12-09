@@ -28,13 +28,14 @@ function changeLang(lang){
         });
     }
 
-
-    var page_title = '🎮 ';
-    if( $('h1').length ){
-        page_title += $('h1').html() + ' - ';
+    if( document.location.href.indexOf('ebook') == -1 ){
+        var page_title = '🎮 ';
+        if( $('h1').length ){
+            page_title += $('h1').html() + ' - ';
+        }
+        page_title += $('.navbar-brand .lang').html();
+        document.title = page_title;
     }
-    page_title += $('.navbar-brand .lang').html();
-    document.title = page_title;
 }
 
 $(function(){
