@@ -13,7 +13,7 @@ FOOTER{padding:1rem;padding-bottom:0;margin-top:40px;}
 
 /* darkmode */
 
-.darkmode .container A{border:0;color:white;}
+.darkmode .container A{border:0;color:white;padding:0;}
 .darkmode .container A:hover{background:none;text-decoration:underline;}
 .darkmode nav, .darkmode footer{background:black !important;}
 .darkmode .container a.btn{color:white !important;border:1px white solid !important;}
