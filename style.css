@@ -4,7 +4,7 @@ H1{margin-bottom:20px;}
 .container A:HOVER{background:#fafafa;}
 FOOTER{padding:1rem;padding-bottom:0;margin-top:40px;}
 TH{background:#f8f9fa;}
-
+.table_header{background:#fff3cd;}
 
 @media screen and (min-width: 800px) {
     BODY{padding-bottom:160px}
@@ -26,3 +26,4 @@ TH{background:#f8f9fa;}
 .darkmode .modal .btn-close{filter: invert(1);}
 .darkmode table{color:white;}
 .darkmode table th{background:none;}
+.darkmode .table_header{background:black;}
