@@ -1,12 +1,29 @@
 BODY{padding-top:80px;}
-H1{margin-bottom:40px;}
+H1{margin-bottom:20px;}
 .container A{padding:2px;display:inline-block;text-decoration:none;color:black;border-bottom:1px #ccc solid;}
 .container A:HOVER{background:#fafafa;}
 FOOTER{padding:1rem;padding-bottom:0;margin-top:40px;}
-
-
+TH{background:#f8f9fa;}
+.table_header{background:#fff3cd;}
 
 @media screen and (min-width: 800px) {
     BODY{padding-bottom:160px}
     FOOTER{position:fixed;bottom:0;left:0;right:0;}
 }
+
+/* darkmode */
+
+.darkmode .container A{border:0;color:white;padding:0;}
+.darkmode .container A:hover{background:none;text-decoration:underline;}
+.darkmode nav, .darkmode footer{background:black !important;}
+.darkmode .container a.btn{color:white !important;border:1px white solid !important;padding:5px 10px;}
+.darkmode #filter .btn-outline-warning{color:#ffc107 !important;}
+.darkmode #filter .btn-outline-warning:hover{color:black !important;}
+.darkmode .featured .btn-outline-secondary{background:none;color:white;}
+.darkmode .modal .btn, .darkmode .modal .btn:hover{color:white;border-color:white;background:none;}
+.darkmode .modal .btn:hover{text-decoration:underline;}
+.darkmode .container .modal .btn-warning{border:0 !important;color:black !important;}
+.darkmode .modal .btn-close{filter: invert(1);}
+.darkmode table{color:white;}
+.darkmode table th{background:none;}
+.darkmode .table_header{background:black;}

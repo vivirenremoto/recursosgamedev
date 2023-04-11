@@ -3,6 +3,8 @@
 var userLang = navigator.language || navigator.userLanguage; 
 var default_lang = userLang.substr(0,2);
 var exdays = 365;
+var darkmode = getCookie('darkmode');
+
 
 function changeLang(lang){
     default_lang = lang;
@@ -36,6 +38,25 @@ function changeLang(lang){
         page_title += $('.navbar-brand .lang').html();
         document.title = page_title;
     }
+}
+
+function changeDarkmode(mode){
+    if( mode == 1 ){
+        darkmode = 1;
+        $('body').addClass('darkmode bg-dark text-light');
+        $('nav,footer').addClass('navbar-dark bg-dark');
+        $('nav,footer').removeClass('navbar-light bg-light');
+        $('nav .dropdown-menu').addClass('dropdown-menu-dark');
+        $('.modal-content').addClass('bg-dark');
+    }else{
+        darkmode = 0;
+        $('body').removeClass('darkmode bg-dark text-light');
+        $('nav,footer').removeClass('navbar-dark bg-dark');
+        $('nav,footer').addClass('navbar-light bg-light');
+        $('nav .dropdown-menu').removeClass('dropdown-menu-dark');
+        $('.modal-content').removeClass('bg-dark');
+    }
+    setCookie('darkmode', darkmode, exdays);
 }
 
 $(function(){
@@ -81,6 +102,13 @@ $(function(){
     }else{
         changeLang(default_lang);
     }
+
+    changeDarkmode(darkmode);
+
+    $('#btn_darkmode').click(function(){
+        changeDarkmode(!darkmode);
+    });
+
 
 });
 
