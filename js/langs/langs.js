@@ -122,6 +122,7 @@ i18n.es =
 'Translators': 'Traductores',
 'Frequently asked questions': 'Preguntas frecuentes',
 'Sponsors': 'Patrocinadores',
+'Templates': 'Plantillas',
 };
 
 
@@ -246,6 +247,7 @@ i18n.ca =
 'Translators': 'Traductors',
 'Frequently asked questions': 'Preguntes frequents',
 'Sponsors': 'Patrocinadors',
+'Templates': 'Plantilles',
 };
 
 
@@ -370,6 +372,7 @@ i18n.it =
 'Translators': 'Traduttori',
 'Frequently asked questions': 'Domande frequenti',
 'Sponsors': 'Sponsors',
+'Templates': 'Modelli',
 };
 
 // PORTUGUÊS - BRASIL
@@ -493,6 +496,7 @@ i18n.br =
 'Translators': 'Tradutores',
 'Frequently asked questions': 'Perguntas frequentes',
 'Sponsors': 'Patrocinadores',
+'Templates': 'Modelos',
 };
 
 
